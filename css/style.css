@@ -42,8 +42,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fffaf2;color:#FFFFFF; text-shadow: none; }
-::selection { background: #fffaf2; color:#FFFFFF; text-shadow: none; }
+::-moz-selection { background: #fffaf2;color:#d2867e; text-shadow: none; }
+::selection { background: #fffaf2; color:#d2867e; text-shadow: none; }
 
 
 /* =============================================================================
@@ -217,6 +217,15 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
+p,
+a{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+h3{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
 body {
   background-color: #f1f3de;
 }
@@ -230,8 +239,8 @@ header{
 }
 header h2{
   text-indent:-2000px;
-  background:url('../img/title.png') no-repeat 0 100px;
-  height:180px;
+  background:url('../img/title.png') no-repeat 0 112px;
+  height:191px;
   margin: 0 0 0 572px;
 }
 
@@ -247,7 +256,7 @@ header li{
    list-style-type:none;
    margin-left:25px;
 }
-header li#first{
+header li#about{
   margin-left:698px;
 }
 header a{
@@ -266,7 +275,20 @@ header a:hover{
   padding:0;
   margin-top:20px;
 }
+#main #blogs li{
+  list-style-type:none;
+}
+#main #blogs li a{
+  color:#444442;
+  text-decoration:none;
+}
+#main #blogs li a:hover{
+  color:#cd887e;
+}
 
+#main #blogs h3{
+  margin:32px 0 10px -15px;
+}
 #left{
   float:left;
   width:620px;
@@ -280,17 +302,17 @@ header a:hover{
   height:100%;
 }
 
-footer{
+/*footer{
   height:100px;
   background-color: #d2867e;
   width:930px;
   margin: 0 auto;
   padding:0;
   margin-top:30px;
-}
+}*/
 
 footer p{
-  color:#d2867e;
+  color:#f1f3de;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
   font-size:12px;
@@ -299,15 +321,68 @@ footer p{
 }
 
 
+header h3{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: normal;
+  font-size:34px;
+  color:#d2867e;
+  margin: 0 0 -10px 24px;
+}
 
 
 
+/**********ABOUT***********/
+
+#about #main img {
+  float:left;
+  margin:50px 0 0 30px;
+}
+
+#about #main p{
+  float:left;
+  width:450px;
+  margin:100px 0 0 40px;
+  font-size:18px;
+}
+#about #main{
+height:450px;
+margin-top:13px;
+}
+
+#about header li#about a{
+  color:#bb3231;
+}
+#about header li#about a:hover{
+  color:#cd887e;
+}
 
 
+/***********CONTACT********/
+#contact #main img {
+  margin:-17px 0 0 0;
+}
+#contact #main p{
+  width:550px;
+  margin:0 0 0 270px;
+  font-size:18px;
+  padding-top:50px;
+  line-height:21px;
+}
+#contact #main{
+height:520px;
+margin-top:13px;
+}
+#contact #main a{
+  color:#d2867e;
+  text-decoration:none;
+}
 
-
-
-
+#contact header li#contact a{
+  color:#bb3231;
+}
+#contact header li#contact a:hover{
+  color:#cd887e;
+}
 
 
 /* ==|== media queries ======================================================
