@@ -17,8 +17,8 @@ header {
   header h2 {
     text-indent: -2000px;
     background: url("../img/title.png") no-repeat 0 112px;
-    height: 191px;
-    margin: 0 0 0 572px; }
+    height: 206px;
+    margin: 0 0 0 581px; }
   header ul {
     margin: 10px 0 10px 0; }
   header li {
@@ -26,14 +26,14 @@ header {
     font-weight: 300;
     float: left;
     font-size: 18px;
-    color: #363635;
+    color: #6a6a6a;
     list-style-type: none;
     margin-left: 25px; }
   header li#about {
     margin-left: 698px; }
   header a {
     text-decoration: none;
-    color: #363635; }
+    color: #6a6a6a; }
   header a:hover {
     color: #cd887e; }
 
