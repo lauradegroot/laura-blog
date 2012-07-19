@@ -39,7 +39,7 @@ header {
 
 #main {
   width: 930px;
-  height: 1000px;
+  height: 1500px;
   background-color: #fffaf2;
   margin: 0 auto;
   padding: 0;
@@ -58,6 +58,49 @@ header {
   float: left;
   width: 620px;
   height: 100%; }
+  #left .post {
+    width: 525px;
+    height: auto;
+    margin: 20px 0 0 40px;
+    border-bottom: 1px solid #cd887e; }
+    #left .post p.date {
+      float: left;
+      margin: 30px 0 0 10px;
+      font-size: 12px; }
+    #left .post h3 {
+      float: left;
+      margin-bottom: 10px;
+      font-size: 22px; }
+    #left .post p.posttext {
+      clear: left;
+      font-size: 14px;
+      margin: 20px 0 0 0px; }
+    #left .post .postimage {
+      margin: 20px 0 0 0px; }
+    #left .post .comments {
+      margin: 20px 0 0 0px;
+      display: none; }
+      #left .post .comments img.gravatar {
+        float: left; }
+      #left .post .comments .text {
+        float: left; }
+      #left .post .comments .comment {
+        clear: left;
+        width: 500px;
+        min-height: 70px; }
+        #left .post .comments .comment p.timestamp {
+          font-size: 11px;
+          margin: -1px 0 0 10px; }
+        #left .post .comments .comment p.comment-content {
+          margin: 10px 0 20px 10px;
+          font-size: 13px;
+          width: 400px;
+          border-bottom: 1px solid #f1f3de;
+          padding-bottom: 30px; }
+    #left .post .show {
+      display: block; }
+    #left .post p.showcomments {
+      cursor: pointer; }
 
 #right {
   float: left;

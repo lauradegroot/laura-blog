@@ -1,6 +1,7 @@
 
 $font:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 $hover:#cd887e;
+$margin:20px 0 0 0px;
 
 p,
 a,
@@ -53,7 +54,7 @@ header{
 
 #main{
   width:930px;
-  height:1000px;
+  height:1500px;
   background-color: #fffaf2;
   margin: 0 auto;
   padding:0;
@@ -71,6 +72,69 @@ header{
   float:left;
   width:620px;
   height:100%;
+  	.post{
+  		width:525px;
+  		height:auto;
+  		margin:20px 0 0 40px;
+  		border-bottom:1px solid $hover;
+
+  		p.date{
+  			float:left;
+  			margin:30px 0 0 10px;
+  			font-size:12px;
+  		}
+  		h3{
+  			float:left;
+  			margin-bottom:10px;
+  			font-size:22px;
+  		}
+  		p.posttext{
+  			clear:left;
+  			font-size:14px;
+  			margin:$margin;
+  		}
+  		.postimage{
+  			margin:$margin;
+  		}
+  		p.showcomments{
+  			
+  		}
+  		.comments{
+  			margin:$margin;
+  			display:none;  	
+
+  			img.gravatar{
+  				float:left;
+  			}
+  			.text{
+  				float:left;
+  			}
+  			.comment{
+  				clear:left;
+  				width:500px;
+  				min-height:70px;
+  			
+	  			p.timestamp{
+	  				font-size:11px;
+	  				margin:-1px 0 0 10px;
+	  			}
+	  			p.comment-content{
+	  				margin: 10px 0 20px 10px;
+	  				font-size: 13px;
+	  				width:400px;
+	  				border-bottom:1px solid #f1f3de;
+  					padding-bottom:30px;
+	  			}
+	  		}
+  		}
+
+  		.show{
+  			display:block;
+  		}
+  		p.showcomments {
+  			cursor:pointer;
+  		}
+  	}
 }
 
 #right{
