@@ -77,6 +77,7 @@ header{
   		height:auto;
   		margin:20px 0 0 40px;
   		border-bottom:1px solid $hover;
+  		padding-bottom:20px;
 
   		p.date{
   			float:left;
@@ -95,9 +96,6 @@ header{
   		}
   		.postimage{
   			margin:$margin;
-  		}
-  		p.showcomments{
-  			
   		}
   		.comments{
   			margin:$margin;
