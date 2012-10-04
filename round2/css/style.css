@@ -1,0 +1,95 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background: #ffffff; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+p {
+  font-size: 13px; }
+
+a:hover {
+  color: #a13d1c; }
+
+span.cursive {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 20px; }
+
+header {
+  background-image: url("../img/autumncircle-lines3.png");
+  height: 271px;
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin: 0 auto;
+  margin-top: 23px; }
+  header ul {
+    padding: 126px 0 0 680px;
+    position: relative; }
+    header ul li {
+      float: left;
+      list-style-type: none;
+      margin-right: 37px;
+      font-family: "Cedarville Cursive", cursive;
+      font-size: 25px; }
+    header ul li#archives {
+      margin-right: 0; }
+
+#main {
+  height: 2000px;
+  width: 1005px;
+  margin: 0 auto; }
+  #main #left {
+    float: left;
+    width: 765px;
+    height: 1000px;
+    margin: 5px 16px 0 0px;
+    background: #ececec;
+    -moz-border-radius: 2px;
+    border-radius: 2px; }
+    #main #left .post {
+      margin-left: 40px; }
+      #main #left .post p {
+        width: 650px;
+        margin: 0; }
+      #main #left .post p.date {
+        margin-top: 40px; }
+      #main #left .post p.content {
+        margin-bottom: 30px; }
+      #main #left .post h1 {
+        font-size: 20px;
+        margin-top: 0;
+        font-weight: normal; }
+  #main #right {
+    float: left;
+    width: 224px;
+    height: 1000px;
+    margin: 5px 0 0 0;
+    background: #ececec;
+    -moz-border-radius: 2px;
+    border-radius: 2px; }
+    #main #right img {
+      margin: 24px 0 0 24px; }
+    #main #right p#laura {
+      font-family: "Cedarville Cursive", cursive;
+      color: #ffffff;
+      margin: -102px 0 0 139px;
+      font-size: 20px; }
+
+.about #content {
+  width: 1005px;
+  background-color: #ececec;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  height: 500px; }
+  .about #content img {
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 50px 0 0 50px;
+    float: left; }
+  .about #content p#about {
+    float: left;
+    width: 500px;
+    margin: 70px 0 0 30px; }
