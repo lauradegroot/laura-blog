@@ -1,3 +1,6 @@
+
+
+$
 $("p.showcomments").toggle(
 	function(){
 		$(".comments").addClass("show");
