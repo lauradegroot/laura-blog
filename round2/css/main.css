@@ -21,9 +21,6 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background: #ffffff;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
 }
 
 /*
@@ -96,52 +93,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-a{
-    text-decoration: none;
-    color:#000000;
-}
-a:hover{
-    color:#af5334;
-}
-header{
-    background-image: url('../img/autumncircle-lines3.png');
-    height:271px;
-    width:932px;
-    background-repeat: no-repeat;
-    background-position: center top;
-    margin:0 auto;
-}
-header ul{
-    padding: 174px 0 0 653px;
-    position:relative;
-}
-header li{
-    float:left;
-    list-style-type: none;
-    margin-right:20px;
-}
-
-#main {
-    height:2000px;
-    width:1024px;
-    margin:0 auto;
-    }
-#left{
-    float:left;
-    width:748px;
-    height:1000px;
-    margin:20px 20px 0 0px;
-    background:#ececec;
-}
-
-#right{
-    float:left;
-    width:200px;
-    height:1000px;
-    margin:20px 0 0 0;
-    background:#ececec  ;
-}
 
 
 
