@@ -14,10 +14,17 @@ a{
     color:#000000;
 }
 p{
-	font-size:13px;
+	font-size:14px;
 }
-a:hover{
+
+li#about a:hover{
     color:$red;
+}
+li#tutorials a:hover{
+    color:#888533;
+}
+li#archives a:hover{
+    color:#dba40d;
 }
 
 span.cursive{
@@ -26,15 +33,13 @@ span.cursive{
 }
 
 header{
-	background-image: url('../img/autumncircle-lines3.png');
+	background: url('../img/autumncircle-lines3.png') no-repeat center top;
     height:271px;
     width:1000px;
-    background-repeat: no-repeat;
-    background-position: left top;
     margin:0 auto;
     margin-top:23px;
     ul{
-    	padding: 126px 0 0 680px;
+    	padding: 126px 0 0 579px;
     	position:relative;
     	li{
     		float:left;
@@ -63,12 +68,16 @@ header{
 	    border-radius: 2px;
 	    .post{
 	    	margin-left:40px;
+	    	width:680px;
+	    	border-bottom:1px solid $red;
+	    	padding-bottom:30px;
 	    	p {
 	    		width:650px;
 	    		margin:0;
 	   	 	}
 		    p.date{
 		   		margin-top:40px;
+		   		font-size:12px;
 		    }
 		    p.content{
 		    	margin-bottom:30px;
@@ -117,8 +126,9 @@ header{
 	    }
 	    p#about{
 	    	float:left;
-	    	width:500px;
+	    	width:400px;
 	    	margin:70px 0 0 30px;
+	    	font-size:14px;
 	    }
 	}
 }
