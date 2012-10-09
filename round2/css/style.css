@@ -37,7 +37,8 @@ header {
       list-style-type: none;
       margin-right: 37px;
       font-family: "Cedarville Cursive", cursive;
-      font-size: 25px; }
+      font-size: 25px;
+      cursor: pointer; }
     header ul li#archives {
       margin-right: 0; }
 
@@ -53,6 +54,9 @@ header {
     background: #ececec;
     -moz-border-radius: 2px;
     border-radius: 2px; }
+    #main #left #home {
+      width: 765px;
+      height: 800px; }
     #main #left .post {
       margin-left: 40px;
       width: 680px;
@@ -86,19 +90,14 @@ header {
       margin: -102px 0 0 139px;
       font-size: 20px; }
 
-.about #content {
-  width: 1005px;
-  background-color: #ececec;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  height: 500px; }
-  .about #content img {
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    margin: 50px 0 0 50px;
-    float: left; }
-  .about #content p#about {
-    float: left;
-    width: 400px;
-    margin: 70px 0 0 30px;
-    font-size: 14px; }
+#main .hide {
+  display: none; }
+
+#about img {
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 50px 0 0 180px; }
+#about p#about {
+  width: 400px;
+  margin: 20px 0 0 180px;
+  font-size: 14px; }

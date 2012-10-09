@@ -47,6 +47,7 @@ header{
     		margin-right:37px;
     		font-family: $cursive;
     		font-size:25px;
+    		cursor:pointer;
     	}
     	li#archives{
     		margin-right:0;
@@ -66,6 +67,10 @@ header{
 	    background:$grey;
 	    -moz-border-radius: 2px;
 	    border-radius: 2px;
+		#home{
+			width:765px;
+			height:800px;
+		}
 	    .post{
 	    	margin-left:40px;
 	    	width:680px;
@@ -110,25 +115,19 @@ header{
 	}
 }
 
+#main .hide {
+	display:none;
+}
 
-.about{
-	#content{
-		width:1005px;
-		background-color:$grey;
-		-moz-border-radius: 2px;
-	    border-radius: 2px;
-	    height:500px;
-	    img{
-	    	-moz-border-radius: 10px;
-	   		 border-radius: 10px;
-	   		 margin:50px 0 0 50px;
-	   		 float:left;
-	    }
-	    p#about{
-	    	float:left;
-	    	width:400px;
-	    	margin:70px 0 0 30px;
-	    	font-size:14px;
-	    }
-	}
+#about{
+    img{
+    	-moz-border-radius: 10px;
+   		 border-radius: 10px;
+   		 margin:50px 0 0 180px;
+    }
+    p#about{
+    	width:400px;
+    	margin:20px 0 0 180px;
+    	font-size:14px;
+    }
 }
