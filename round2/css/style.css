@@ -10,85 +10,89 @@ a {
 p {
   font-size: 14px; }
 
-li#about a:hover {
-  color: #a13d1c; }
+li#about:hover {
+  background: url("../img/about.png") no-repeat 85px 13px; }
 
-li#tutorials a:hover {
-  color: #888533; }
+li#tutorials:hover {
+  background: url("../img/diy.png") no-repeat 35px 12px; }
 
-li#archives a:hover {
-  color: #dba40d; }
+li#archives:hover {
+  background: url("../img/archives.png") no-repeat 45px 15px; }
+
+li#homepage:hover {
+  background: url("../img/home.png") no-repeat 100px 13px; }
 
 span.cursive {
   font-family: "Cedarville Cursive", cursive;
   font-size: 20px; }
 
-header {
-  background: url("../img/autumncircle-lines3.png") no-repeat center top;
-  height: 271px;
-  width: 1000px;
-  margin: 0 auto;
-  margin-top: 23px; }
-  header ul {
-    padding: 126px 0 0 579px;
-    position: relative; }
-    header ul li {
-      float: left;
-      list-style-type: none;
-      margin-right: 37px;
-      font-family: "Cedarville Cursive", cursive;
-      font-size: 25px;
-      cursor: pointer; }
-    header ul li#archives {
-      margin-right: 0; }
-
 #main {
-  height: 2000px;
-  width: 1005px;
+  height: 100%;
   margin: 0 auto; }
-  #main #left {
+  #main #right {
     float: left;
-    width: 765px;
-    height: 1000px;
-    margin: 5px 16px 0 0px;
-    background: #ececec;
+    width: 66%;
+    height: auto;
+    margin: 5px 0 16px 0px;
+    background: #fffffff;
     -moz-border-radius: 2px;
     border-radius: 2px; }
-    #main #left #home {
+    #main #right #home {
       width: 765px;
-      height: 800px; }
-    #main #left .post {
-      margin-left: 40px;
+      height: auto; }
+    #main #right .post {
+      margin-left: 50px;
       width: 680px;
       border-bottom: 1px solid #a13d1c;
       padding-bottom: 30px; }
-      #main #left .post p {
+      #main #right .post p {
         width: 650px;
         margin: 0; }
-      #main #left .post p.date {
-        margin-top: 40px;
-        font-size: 12px; }
-      #main #left .post p.content {
+      #main #right .post p.date {
+        margin-top: 50px;
+        font-size: 13px; }
+      #main #right .post p.content {
         margin-bottom: 30px; }
-      #main #left .post h1 {
-        font-size: 20px;
+      #main #right .post h1 {
+        font-size: 22px;
         margin-top: 0;
         font-weight: normal; }
-  #main #right {
+      #main #right .post a {
+        font-weight: bold; }
+      #main #right .post a:hover {
+        text-decoration: underline; }
+      #main #right .post img {
+        -moz-border-radius: 5px;
+        border-radius: 5px; }
+  #main #left {
     float: left;
-    width: 224px;
-    height: 1000px;
-    margin: 5px 0 0 0;
+    width: 29%;
+    height: 100%;
+    min-height: 1000px;
+    margin: 0 0 0 0;
     background: #ececec;
     -moz-border-radius: 2px;
     border-radius: 2px; }
-    #main #right img {
-      margin: 24px 0 0 24px; }
-    #main #right p#laura {
+    #main #left img#logo {
+      margin: 24px 24px 0 0;
+      float: right; }
+    #main #left p#laura {
       font-family: "Cedarville Cursive", cursive;
       color: #ffffff;
       margin: -102px 0 0 139px;
       font-size: 20px; }
+    #main #left ul#nav {
+      margin-top: 34px;
+      clear: right;
+      float: right; }
+      #main #left ul#nav li {
+        list-style-type: none;
+        margin-right: 36px;
+        font-family: "Cedarville Cursive", cursive;
+        font-size: 32px;
+        cursor: pointer;
+        text-align: right;
+        width: 200px; }
 
 #main .hide {
   display: none; }

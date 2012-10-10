@@ -1,26 +1,23 @@
 
 $(document).ready(function() {
-	 $("header li#about").click(function() {
-	 	console.log("yep")
-	 	 $("#left .page").hide();
-		 $("#left #about").show();
+	 $("li#about").click(function() {
+	 	 $("#right .page").hide();
+		 $("#right #about").show();
 	 });
 
-	  $("header li#tutorials").click(function() {
-	 	console.log("yep")
-		 $("#left .page").hide();
-		 $("#left #tutorials").show();
+	  $("li#tutorials").click(function() {
+		 $("#right .page").hide();
+		 $("#right #tutorials").show();
 	 });
 
-	   $("header li#archives").click(function() {
-	 	console.log("yep")
-		 $("#left .page").hide();
-		 $("#left #archives").show();
+	   $("li#archives").click(function() {
+		 $("#right .page").hide();
+		 $("#right #archives").show();
 	 });
 
-	    $("header li#home").click(function() {
-	 	console.log("yep")
-		 $("#left .page").hide();
-		 $("#left #home").show();
+	    $("li#homepage").click(function() {
+		 $("#right .page").hide();
+		 $("#right #home").show();
 	 });
+
 });

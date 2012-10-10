@@ -17,62 +17,52 @@ p{
 	font-size:14px;
 }
 
-li#about a:hover{
-    color:$red;
+li#about:hover{
+    background:url("../img/about.png") no-repeat 85px 13px;
 }
-li#tutorials a:hover{
-    color:#888533;
+li#tutorials:hover{
+    background:url("../img/diy.png") no-repeat 35px 12px;
 }
-li#archives a:hover{
-    color:#dba40d;
+li#archives:hover{
+    background:url("../img/archives.png") no-repeat 45px 15px;
 }
+li#homepage:hover{
+    background:url("../img/home.png") no-repeat 100px 13px;
+}
+
 
 span.cursive{
 	font-family:$cursive;
 	font-size:20px;
 }
 
-header{
-	background: url('../img/autumncircle-lines3.png') no-repeat center top;
-    height:271px;
-    width:1000px;
-    margin:0 auto;
-    margin-top:23px;
-    ul{
-    	padding: 126px 0 0 579px;
-    	position:relative;
-    	li{
-    		float:left;
-    		list-style-type: none;
-    		margin-right:37px;
-    		font-family: $cursive;
-    		font-size:25px;
-    		cursor:pointer;
-    	}
-    	li#archives{
-    		margin-right:0;
-    	}
-    }
-}
+// header{
+// 	background: url('../img/autumncircle-lines3.png') no-repeat left top;
+//     height:220px;
+//     width:1000px;
+//     margin:0 auto;
+//     margin-top:23px;    
+// }
 
 #main {
-    height:2000px;
-    width:1005px;
+    height:100%;
+    //min-height:1000px;
     margin:0 auto;
-    #left{
+    #right{
 	    float:left;
-	    width:765px;
-	    height:1000px;
-	    margin:5px 16px 0 0px;
-	    background:$grey;
+	    width:66%;
+	    height:auto;
+	    margin:5px 0 16px 0px;
+	    background:#fffffff;
 	    -moz-border-radius: 2px;
 	    border-radius: 2px;
+	    
 		#home{
 			width:765px;
-			height:800px;
+			height:auto;
 		}
 	    .post{
-	    	margin-left:40px;
+	    	margin-left:50px;
 	    	width:680px;
 	    	border-bottom:1px solid $red;
 	    	padding-bottom:30px;
@@ -81,30 +71,42 @@ header{
 	    		margin:0;
 	   	 	}
 		    p.date{
-		   		margin-top:40px;
-		   		font-size:12px;
+		   		margin-top:50px;
+		   		font-size:13px;
 		    }
 		    p.content{
 		    	margin-bottom:30px;
 		    }
 	   	 	h1{
-	   	  		font-size:20px;
+	   	  		font-size:22px;
 	   	  		margin-top:0;
 	   	  		font-weight:normal;
 	   	  		// font-family: Sorts Mill Goudy, serif;
+	   	  	}
+	   	  	a{
+	   	  		font-weight:bold;
+	   	  	}
+	   	  	a:hover{
+	   	  		text-decoration:underline;
+	   	  	}
+	   	  img{
+	   	  	-moz-border-radius: 5px;
+			border-radius: 5px;
 	   	  }
 	   }
 	}	
-	#right{
+	#left{
 		float:left;
-		width:224px;
-		height:1000px;
-		margin:5px 0 0 0;
-		background:#ececec;
+		width:29%;
+		height:100%;
+		min-height:1000px;
+		margin:0 0 0 0;
+		background:$grey;
 		-moz-border-radius: 2px;
 		border-radius: 2px;
-		img{
-			margin:24px 0 0 24px;
+		img#logo{
+			margin:24px 24px 0 0;
+			float:right;
 		}
 		p#laura{
 			font-family: $cursive;
@@ -112,6 +114,21 @@ header{
 			margin:-102px 0 0 139px;
 			font-size: 20px;
 		}
+		ul#nav{
+    	margin-top:34px;
+    	clear:right;
+    	float:right;
+	    	li{
+	    		
+	    		list-style-type: none;
+	    		margin-right:36px;
+	    		font-family: $cursive;
+	    		font-size:32px;
+	    		cursor:pointer;
+	    		text-align:right;
+	    		width:200px;
+	    	}
+    	}
 	}
 }
 
