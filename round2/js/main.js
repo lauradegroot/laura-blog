@@ -1,5 +1,13 @@
 
 $(document).ready(function() {
+
+
+	var currentId = "";
+	$('ul#nav li').click(function(){
+		currentId = $(this).attr('id');
+	});
+
+
 	 $("li#about").click(function() {
 	 	 $("#right .page").hide();
 		 $("#right #about").show();
@@ -20,6 +28,5 @@ $(document).ready(function() {
 		 $("#right #home").show();
 	 });
 
-
-
+	  $("#left").css("height", $("#right").height());
 });

@@ -36,14 +36,6 @@ span.cursive{
 	font-size:20px;
 }
 
-// header{
-// 	background: url('../img/autumncircle-lines3.png') no-repeat left top;
-//     height:220px;
-//     width:1000px;
-//     margin:0 auto;
-//     margin-top:23px;    
-// }
-
 #main {
     height:100%;
     //min-height:1000px;
@@ -54,10 +46,8 @@ span.cursive{
 	    height:auto;
 	    margin:5px 0 16px 0px;
 	    background:#fffffff;
-	    -moz-border-radius: 2px;
-	    border-radius: 2px;
 	    
-		#home{
+		.page{
 			width:765px;
 			height:auto;
 		}
@@ -100,10 +90,8 @@ span.cursive{
 		width:29%;
 		height:100%;
 		min-height:1000px;
-		margin:0 0 0 0;
+		margin:0;
 		background:$grey;
-		-moz-border-radius: 2px;
-		border-radius: 2px;
 		img#logo{
 			margin:24px 24px 0 0;
 			float:right;
@@ -159,7 +147,34 @@ span.cursive{
     	font-family:$cursive;
     	font-size:22px;
     	margin: 0 0 0 15px  
+    	}
+    	a:hover{
+    		color:#5e5f26;
     	}  	
     }
 
+}
+
+#tutorials{
+	h2{
+		font-weight:normal;
+		margin:30px 0 0 50px;
+	}
+	#grid{
+		ul{
+			width:500px;
+			li{
+				list-style-type:none;
+				float:left;
+				margin:0 10px 10px 10px;
+				font-size:12px;
+				img{
+					-moz-border-radius: 5px;
+	   		 		border-radius: 5px;
+				}
+				img:hover{
+				}
+			}
+		}
+	}
 }

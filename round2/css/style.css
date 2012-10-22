@@ -23,7 +23,7 @@ li#homepage:hover {
   background: url("../img/home.png") no-repeat 100px 13px; }
 
 span.cursive {
-  font-family: "Cedarville Cursive", cursive;
+  font-family: "Cedarville Cursive", Helvetica, ;
   font-size: 20px; }
 
 #main {
@@ -32,12 +32,10 @@ span.cursive {
   #main #right {
     float: left;
     width: 66%;
-    height: auto;
+    height: 100%;
     margin: 5px 0 16px 0px;
-    background: #fffffff;
-    -moz-border-radius: 2px;
-    border-radius: 2px; }
-    #main #right #home {
+    background: #fffffff; }
+    #main #right .page {
       width: 765px;
       height: auto; }
     #main #right .post {
@@ -67,12 +65,9 @@ span.cursive {
   #main #left {
     float: left;
     width: 29%;
-    height: 100%;
     min-height: 1000px;
-    margin: 0 0 0 0;
-    background: #ececec;
-    -moz-border-radius: 2px;
-    border-radius: 2px; }
+    margin: 0;
+    background: #ececec; }
     #main #left img#logo {
       margin: 24px 24px 0 0;
       float: right; }
@@ -114,3 +109,19 @@ span.cursive {
   font-family: "Cedarville Cursive", cursive;
   font-size: 22px;
   margin: 0 0 0 15px; }
+#about .social a:hover {
+  color: #5e5f26; }
+
+#tutorials h2 {
+  font-weight: normal;
+  margin: 30px 0 0 50px; }
+#tutorials #grid ul {
+  width: 510px; }
+  #tutorials #grid ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0 10px 10px 10px;
+    font-size: 12px; }
+    #tutorials #grid ul li img {
+      -moz-border-radius: 5px;
+      border-radius: 5px; }
